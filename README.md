@@ -24,7 +24,7 @@ CurriculumVitaeManagementAPI
 ## Getting Started 
 
 ### Prerequisites 
-Make sure you have a .net C# compatible IDE installed. 
+Make sure you have a .net C# compatible IDE and .net 8 SDK installed. 
 
 ### Running the dev env
 \On the Root foler \CurriculumVitaeManagementAPI run the "CurriculumVitaeManagementAPI.sln" file and start the project.
