@@ -1,0 +1,342 @@
+[
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.CandidatesController",
+    "Method": "GetCsrfToken",
+    "RelativePath": "api/Candidates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.CandidatesController",
+    "Method": "GetCandidate",
+    "RelativePath": "api/Candidates/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurriculumVitaeManagementAPI.Models.Candidate",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.CandidatesController",
+    "Method": "PutCandidate",
+    "RelativePath": "api/Candidates/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Degree",
+        "Type": "System.Collections.Generic.List\u00601[[CurriculumVitaeManagementAPI.Models.Degree, CurriculumVitaeManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CVBlob",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreationTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CVFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.CandidatesController",
+    "Method": "DeleteCandidate",
+    "RelativePath": "api/Candidates/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.CandidatesController",
+    "Method": "PostCandidate",
+    "RelativePath": "api/Candidates/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Degree",
+        "Type": "System.Collections.Generic.List\u00601[[CurriculumVitaeManagementAPI.Models.Degree, CurriculumVitaeManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CVBlob",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreationTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CVFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurriculumVitaeManagementAPI.Models.Candidate",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "GetCsrfToken",
+    "RelativePath": "api/Degrees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "PostDegreee",
+    "RelativePath": "api/Degrees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "degree",
+        "Type": "CurriculumVitaeManagementAPI.Models.Degree",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurriculumVitaeManagementAPI.Models.Degree",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "DeleteNonLinkedDegrees",
+    "RelativePath": "api/Degrees",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "GetDegree",
+    "RelativePath": "api/Degrees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurriculumVitaeManagementAPI.Models.Degree",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "PutDegree",
+    "RelativePath": "api/Degrees/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "degree",
+        "Type": "CurriculumVitaeManagementAPI.Models.Degree",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "DeleteDegree",
+    "RelativePath": "api/Degrees/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "PostDegree",
+    "RelativePath": "api/Degrees/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "degrees",
+        "Type": "System.Collections.Generic.List\u00601[[CurriculumVitaeManagementAPI.Models.Degree, CurriculumVitaeManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurriculumVitaeManagementAPI.Models.Degree",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurriculumVitaeManagementAPI.Controllers.DegreesController",
+    "Method": "GetDegreeFromLinkedCandidates",
+    "RelativePath": "api/Degrees/choose",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "degree",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurriculumVitaeManagementAPI.Models.Degree",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
