@@ -1,8 +1,8 @@
 "# cv-management-app" 
 
-#Frontend Project
+# Frontend Project
 
-# Project Name 
+## Project Name 
 ReactCVFormFrontEnd
 
 ## Getting Started 
