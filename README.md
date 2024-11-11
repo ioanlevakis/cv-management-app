@@ -16,3 +16,15 @@ On the Root folder \ReactCVFormFrontEnd, open terminal and run the "npm install"
 ### Running the dev env
 After installation is finished, in the same directory run the "npm run dev" command.
 
+# Backend Project
+
+## Project Name 
+CurriculumVitaeManagementAPI
+
+## Getting Started 
+
+### Prerequisites 
+Make sure you have a .net C# compatible IDE installed. 
+
+### Running the dev env
+\On the Root foler \CurriculumVitaeManagementAPI run the "CurriculumVitaeManagementAPI.sln" file and start the project.
